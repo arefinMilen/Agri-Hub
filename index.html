@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Information Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <!-- bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="./asstes/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">AgriHub</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Farming Guide</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Crop Details</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pest Control</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                  Contact Us
+                </span>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <section id="home" class="hero" data-aos="fade-up">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">hellow</button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="asstes/photos/agrihub1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="asstes/photos/agrihub2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img  src="asstes/photos/agrihub3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section id="guides" class="section" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <h2>Farming Guides</h2>
+            <p>Explore step-by-step farming guides categorized by crop type and season.</p>
+            </div>
+            <div class="row gy-4 justify-content-center">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="asstes/photos/farming/veg1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            Fruits
+                          </h5>
+                          <p class="card-text">Learn how to grow a variety of Fruits in your backyard.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="asstes/photos/farming/veg2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Vegetables</h5>
+                          <p class="card-text">Learn how to grow a variety of vegetables in your backyard.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="asstes/photos/farming/veg3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            Cereals
+                          </h5>
+                          <p class="card-text">Learn how to grow a variety of Cereals in your backyard.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="crops" class="section" data-aos="fade-up">
+        <div class="container">
+            <div class="row"><h2>Crop Details</h2>
+                <p>Comprehensive information on various crops, their cultivation methods, and soil requirements.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="asstes/photos/crops.png" alt="crops">
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                        <h3>Crops details </h3>
+                        <p> Crops are categorized into different types based on their growth, use, and environmental requirements. **Grains** like wheat and rice are staple foods worldwide, requiring well-drained soil and moderate rainfall. **Fruits** such as mangoes and apples need specific climatic conditions and proper pollination. **Vegetables** like carrots and spinach grow best in nutrient-rich soil with controlled irrigation. **Cash crops** like cotton and coffee are cultivated mainly for commercial purposes, demanding proper pest management. Understanding soil types, irrigation needs, and harvesting techniques ensures a better yield and sustainable farming. 🚜🌱</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="pest-control" class="section" data-aos="fade-up">
+        
+        <div class="container">
+            <div class="row">
+                <h2>Pest Control Strategies</h2>
+                <p>Learn about effective pest management techniques, biological controls, and organic remedies.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="asstes/photos/pest3.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Biological Controls</h5>
+                            <p class="card-text">Beneficial insects like ladybugs and parasitic wasps are natural predators that feed on harmful pests, reducing the need for chemical pesticides.</p>
+                        </div>
+                            
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="asstes/photos/pest4.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Organic Remedies</h5>
+                            <p class="card-text">Neem oil, garlic spray, and diatomaceous earth are eco-friendly solutions that repel pests and protect plants from diseases.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <script>
+        AOS.init();
+    </script>
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
