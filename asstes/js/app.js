@@ -25,3 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+// Function to handle the live chat button click
+function openChat() {
+    // Replace this with your chat functionality
+    alert("Live chat is not implemented yet. You can integrate a chat service like WhatsApp, Facebook Messenger, or a custom chat widget here.");
+    // Example: Redirect to WhatsApp
+    // window.open("https://wa.me/017", "_blank");
+}

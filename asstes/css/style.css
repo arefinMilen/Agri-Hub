@@ -74,7 +74,9 @@ nav ul li a:hover {
     from { opacity: 0; }
     to { opacity: 1; }
 }
-
+.hero-img {
+    height: 600px;
+}
 .hero h1 {
     font-size: 40px;
     margin-bottom: 10px;
@@ -138,4 +140,18 @@ button {
 button:hover {
     background-color: #1A6E1A;
     transform: scale(1.05);
+}
+
+/* chat-btn */
+.live-chat-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #228B22;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.2s;
 }
